@@ -2,6 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER progrium "progrium@gmail.com"
 
 ADD ./sources.list /etc/apt/sources.list
+ADD ./pip.conf /root/.pip/pip.conf
 
 RUN mkdir /build
 ADD ./stack/ /build
