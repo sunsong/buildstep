@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntutrusty
 MAINTAINER progrium "progrium@gmail.com"
 
 ADD ./sources.list /etc/apt/sources.list
